@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body{
+  font-family:sans-serif;
+  background-color: rgb(178,205,214);
+  height:auto;
+  overflow-x: hidden;
+}
+
+.tiles{
+  max-width: 640px;
+  margin: 0 auto;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tiles-item{
+  background: black;
+  color: white;
+  width: 200px;
+  height: 200px;
+  display: block;
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight:bold;
+  margin: 5px;
+}
+
+.tiles-item:hover br {
+  display:none;
+}
+
+.text{
+  padding:40px;
+}
+
+
+.text-line{
+  font-weight: bold;
+  font-size: 30px;
+  margin: 150px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-rotate{
+  -moz-transform:rotate(-90deg); /* Firefox 3.6 Firefox 4 */
+  -webkit-transform:rotate(-90deg); /* Safari */
+  -o-transform:rotate(-90deg); /* Opera */
+  -ms-transform:rotate(-90deg); /* IE9 */
+  transform:rotate(-90deg); /* W3C */
+}
+
+.text-rotate2{
+  -moz-transform:rotate(-20deg); /* Firefox 3.6 Firefox 4 */
+  -webkit-transform:rotate(-20deg); /* Safari */
+  -o-transform:rotate(-20deg); /* Opera */
+  -ms-transform:rotate(-20deg); /* IE9 */
+  transform:rotate(-20deg); /* W3C */
+
+}
+
+
+.text-bold{
+  font-size: 80px;
+  line-height: 0.6;
+}
+
+.text-space{
+  letter-spacing: 16px;
+}
+
+.text-fest{
+  top:2600px;
+  display:block;
+  width: auto;
+  height: 600px;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 150px;
+}
+
+.text-teilen{
+  top:2600px;
+  right: -400px;
+  display:block;
+  position: absolute;
+  width: auto;
+
+  height: 600px;
+  font-weight: bold;
+  font-size: 60px;
+  color: rgb(163, 160, 250);
+  margin: 150px;
+  -moz-transform:rotate(-90deg); /* Firefox 3.6 Firefox 4 */
+  -webkit-transform:rotate(-90deg); /* Safari */
+  -o-transform:rotate(-90deg); /* Opera */
+  -ms-transform:rotate(-90deg); /* IE9 */
+  transform:rotate(-90deg); /* W3C */
+}
+.link{
+  text-decoration: none;
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
+  -webkit-animation-duration: 0.5s;
+
+
+
+}
+@-webkit-keyframes blinker {
+  from { color:rgb(245, 196, 113); }
+  to { color:rgb(186, 194, 227); }
+}
+
+.blinker {
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
+  -webkit-animation-duration: 0.5s;
+}
+
+.teilen-body{
+  overflow: hidden;
+}
+
+.teuschen{
+  top:40px;
+  left:100px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 80px;
+  letter-spacing: 20px;
+  color: rgb(252, 223, 0);
+}
+.wahrheit{
+  top:280px;
+  left:340px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 1px;
+  color: rgb(161, 153, 232);
+}
+
+.huepsche{
+  top:325px;
+  left:102px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: -2px;
+}
+
+
+
+
+
+
+.text-fest-teilen{
+  display:block;
+  width: auto;
+  height: 600px;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 150px;
+}
+.text-fest-teilen2{
+  position: absolute;
+  top: -210px;
+  left: -200px;
+  width: auto;
+  height: 600px;
+  font-weight: bold;
+  line-height: 0.7;
+  font-size: 400px;
+  margin: 150px;
+  color: rgb(250, 162, 162);
+}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+position: absolute;
+top: 10px;
+left:10px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+.sollteteilen{
+  position: absolute;
+  text-decoration: none;
+  top: 400px;
+  right: -80px;
+  width: auto;
+  height: 600px;
+  font-weight: bold;
+  line-height: 0.7;
+  font-size: 100px;
+  margin: 150px;
+  color: rgb(250, 162, 162);
+}
